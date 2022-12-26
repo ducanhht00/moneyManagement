@@ -106,6 +106,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Button"/>
+                                <connections>
+                                    <action selector="registerButton:" destination="vx0-qc-N0e" eventType="touchUpInside" id="bLb-HT-Drt"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yrT-2W-zyH">
                                 <rect key="frame" x="20" y="280" width="374" height="34"/>
@@ -134,6 +137,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emailLabel" destination="kWM-Fq-NN6" id="rGg-03-7M7"/>
+                        <outlet property="passwordLabel" destination="yrT-2W-zyH" id="m0w-P9-66Q"/>
                         <segue destination="NBY-1R-lFP" kind="presentation" identifier="RegisterToMain" modalPresentationStyle="fullScreen" id="0XX-cf-vb2"/>
                     </connections>
                 </viewController>
@@ -644,7 +649,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="f5a-aM-byP"/>
-        <segue reference="J0O-5S-1IP"/>
+        <segue reference="0XX-cf-vb2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
