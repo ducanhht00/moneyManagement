@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>998454540377-imhn9p310a18cfcvrekhlm9i8rteah4k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.998454540377-imhn9p310a18cfcvrekhlm9i8rteah4k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDoFoKXgljHVGtLz-OxW0u-EJOUz95qWdM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>998454540377</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hiimzito.moneyManagement</string>
+	<key>PROJECT_ID</key>
+	<string>money-management-17494</string>
+	<key>STORAGE_BUCKET</key>
+	<string>money-management-17494.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:998454540377:ios:757816111699a4a1245948</string>
+	<key>DATABASE_URL</key>
+	<string>https://money-management-17494-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
